@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+  <title>Chat Application</title>
+  <script src="eel.js"></script>
+  <script defer src="js/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/chat_isaac.ico">
+</head>
+
+<body>
+
+  <div class="head-content">
+    <span class="left">
+      <span class="logo">Chat</span>
+      <span class="logo-thin">Bot</span>
+    </span>
+    <span class="right theme-toggle-button">
+      <label class="switch">
+      </label>
+    </span>
+  </div>
+
+  <div class="chat-content">
+    
+  </div>
+
+
+  <div class="image-preview">
+    <img class="image-src hidden">
+    <button class="remove-image-button hidden">X</button>
+  </div>
+
+  <div class="bottom-content">
+    <input class="message-box">
+    <input type="file" onclick="this.value = null" accept="image/png, image/jpg, image/jpeg" hidden class="attach-image-input">
+    <button class="attach-image-button">Image</button>
+    <button class="send-button">Send</button>
+  </div>
+  
+  
+</body>
+
+</html>

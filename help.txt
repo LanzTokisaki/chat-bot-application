@@ -1,0 +1,13 @@
+These are the commands available
+calculate -> solves a basic math problem
+coinflip -> flips a coin for you
+date -> tells the date with format
+image -> sends an image related to the argument
+flip -> flips an image
+mirror -> mirrors an image
+rotate -> rotates an image
+repeat -> repeats your message
+reverse -> reverses your message
+rng -> generated random number from range
+time -> tells the time with format
+wikipedia -> sends a message from wikipedia related to the argument
